@@ -1,0 +1,1 @@
+# gyakorlo_P1_szb

@@ -1,0 +1,67 @@
+*,
+*::before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(-230deg, olive, khaki);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 200%;
+}
+
+.main-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80vw;
+  height: 100vh;
+}
+
+.main-div h1, .main-div h2, .main-div p {
+  margin: 20px;
+  text-shadow: darkgrey 1px 3px;
+}
+
+.main-div h1:hover, .main-div h2:hover, .main-div p:hover {
+  color: silver;
+  text-shadow: slategrey;
+}
+
+.main-div a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px;
+}
+
+.main-div a:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  color: orange;
+}
+/*# sourceMappingURL=style.css.map */

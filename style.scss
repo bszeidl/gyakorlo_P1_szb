@@ -1,0 +1,53 @@
+*,
+*::before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(-230deg, olive, khaki);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 200%;
+}
+
+.main-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80vw;
+	height: 100vh;
+	
+	h1, h2, p {
+		margin: 20px;
+		text-shadow: darkgrey 1px 3px;
+		&:hover {
+			color: silver;
+			text-shadow: slategrey;
+		}
+	}
+
+	a {
+		text-decoration: none;
+		display: inline-block;
+		margin: 20px;
+		&:hover {
+			transform: scale(2);
+			color: orange;
+		} 		
+	}
+
+}
+
+
+
+
+
+
+
+
